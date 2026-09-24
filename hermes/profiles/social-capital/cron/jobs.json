@@ -7,11 +7,11 @@
       "enabled": true,
       "enabled_toolsets": null,
       "id": "f41e2bb3f766",
-      "model": "qwen3.8-27b-whitehacker",
+      "model": "murakumo/free",
       "name": "social-capital-tick",
       "no_agent": false,
       "prompt": "social-capital profile の SOUL.md を読み、scripts/social_capital_evidence.py を 1 回実行し、ledger の最新行と前回行の diff から 1 finding を報告し、次の propose step を 1 つ ~/.hermes/profiles/social-capital/workspace/proposals/ に置く。未実測は UNMEATED ではなく UNMEASURED と報告すること。",
-      "provider": "kotoba",
+      "provider": "murakumo",
       "schedule": {
         "kind": "cron",
         "expr": "40 */6 * * *",
